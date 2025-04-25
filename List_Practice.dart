@@ -1,5 +1,4 @@
-void main() {
-  List studentnames = ["Aazim", "Bilal", "ahmed", "anus"];
-  studentnames.remove("Aazim");
-  print(studentnames);
-}
+// void main() {
+//   List<int> numbers = [23, 24, 65, 74];
+//   double result = numbers.forEach((number)=>number * 2);
+// }

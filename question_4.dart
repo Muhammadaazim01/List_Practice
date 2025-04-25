@@ -7,11 +7,3 @@ void main() {
   print("Smallest Number $Smallest");
   print("Greatest Number $Greatest");
 }
-
-// void main() {
-//   List<int> number = [1, 3, 4, 50];
-//   int Smallest = number.first;
-//   int Greatest = number.last;
-//   print("Smallest Number: $Smallest");
-//   print("Greatest Number: $Greatest");
-// }
