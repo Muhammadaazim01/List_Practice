@@ -8,7 +8,7 @@ void main() {
     "Age": 25,
     "isStudent": true,
   };
-  if (Person["isStudent"] == true && Person["Age"] > 18) {
+  if (Person["isStudent"] == true && Person["Age"] >= 18) {
     print("Eligible");
   } else {
     print("Not Eligible");

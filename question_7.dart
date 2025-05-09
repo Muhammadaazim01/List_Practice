@@ -13,7 +13,7 @@ void main() {
     'tue': 3234.0,
   };
   if (expenses.containsKey("fri")) {
-    expenses["fri"] = 5000.0;
+    expenses["fri"] = 6000.0;
   } else {
     expenses["fri"] = 5000.0;
   }

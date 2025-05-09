@@ -10,12 +10,19 @@ void main() {
     "Saturday",
     "Sunday"
   ];
-  removeDays(days);
-}
 
-removeDays(List<String> days) {
-  if (days.isEmpty) return;
-  ("Removing ${days.removeLast()}");
-  print("Remianing days$days");
-  removeDays(days);
+  days.removeLast();
+  print("Remaing days: $days(${days.length})");
+  days.removeLast();
+  print("Remaing days: $days(${days.length})");
+  days.removeLast();
+  print("Remaing days: $days(${days.length})");
+  days.removeLast();
+  print("Remaing days: $days(${days.length})");
+  days.removeLast();
+  print("Remaing days: $days(${days.length})");
+  days.removeLast();
+  print("Remaing days: $days(${days.length})");
+  days.removeLast();
+  print("Remaing days: $days(${days.length})");
 }

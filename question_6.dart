@@ -15,5 +15,4 @@ void main() {
   var selectedCountry = world["countries"]["Pakistan"];
   print("Capital: ${selectedCountry["capitalCity"]}");
   print("Currency: ${selectedCountry["currency"]}");
-  print("Language: ${selectedCountry["language"]}");
 }

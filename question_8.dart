@@ -7,7 +7,6 @@
 // {'name': 'Sarah', 'eligible': true},
 // {'name': 'Tom', 'eligible': false},
 // ];
-import 'dart:developer';
 
 void main() {
   List<Map<String, dynamic>> Users = [
