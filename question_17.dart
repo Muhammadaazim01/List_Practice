@@ -4,7 +4,6 @@
 
 void main() {
   List<int> originallist = [1, 2, 3, 4, 5, 6];
-  List<int> SquareList =
-      originallist.map((numbers) => numbers * numbers).toList();
+  List<int> SquareList = originallist.map((numbers) => numbers * numbers).toList();
   print(SquareList);
 }

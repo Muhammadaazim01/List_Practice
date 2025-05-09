@@ -21,6 +21,6 @@ void main() {
     "city": "Karachi",
     "home town": "Liaquatabad",
   };
-  dynamic result = myValue.keys.where((keys) => keys.length == 10);
+  dynamic result = myValue.keys.where((keys) => keys.length == 8);
   print(result.toList());
 }

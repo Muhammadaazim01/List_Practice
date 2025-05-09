@@ -3,7 +3,7 @@
 // unchanged.
 void main() {
   List<int> numbers = [5, 3, 8, 1, 2];
-  List<int> sortedlist = List.from(numbers);
+  List<int> sortedlist = numbers;
   sortedlist.sort();
 
   print("Sortedlist $sortedlist");
